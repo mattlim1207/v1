@@ -230,7 +230,7 @@ h3 {
 
 p {
     margin: 0 0 25px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.7;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
@@ -336,7 +336,7 @@ a.active {
 }
 
 .nav > li {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .navbar {
@@ -379,7 +379,7 @@ a.active {
 /*Navbar Logo Image*/
 
 .navbar-custom a img {
-    width: 25px;
+    width: 35px;
     display: inline;
     margin-top: -5px;
     margin-right: 15px;
@@ -524,7 +524,7 @@ a.active {
 
 #intro h1 {
     color: #FFF;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 300;
     letter-spacing: 3px;
 }
@@ -1203,10 +1203,8 @@ a.fa.fa-angle-down:focus {
     margin-bottom: 30px;
     line-height: 1.5;
 }
-
-img#starry-logo,
-img#mullen-logo,
-img#nu-logo {
+img#cj-logo,
+img#usc-logo {
     height: auto;
     display: block;
     -webkit-transition: all .3s ease-in-out;
@@ -1214,18 +1212,13 @@ img#nu-logo {
     transition: all .3s ease-in-out
 }
 
-img#starry-logo {
-    width: 180px;
-    margin: 0 auto 10px;
+img#cj-logo {
+    width: 140px;
+    margin: 0 auto 30px;
 }
 
-img#mullen-logo {
-    width: 200px;
-    margin: 0 auto 10px;
-}
-
-img#nu-logo {
-    width: 120px;
+img#usc-logo {
+    width: 140;
     margin: 0 auto;
 }
 
@@ -1238,10 +1231,10 @@ img#nu-logo {
         font-size: 16px;
         margin-bottom: 0;
     }
-    img#mullen-logo {
+    img#cj-logo {
         width: 200px;
     }
-    img#nu-logo {
+    img#usc-logo {
         width: 150px;
     }
 }
@@ -1258,7 +1251,7 @@ img#nu-logo {
         display: block;
         width: 100%;
     }
-    img#nu-logo {
+    img#usc-logo {
         width: 120px;
     }
 }
