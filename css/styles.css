@@ -261,6 +261,8 @@ a.active {
 .wp3-3,
 .wp3-4,
 .wp3-5,
+.wp3-6,
+.wp3-7,
 .wp4,
 .wp5,
 .wp6 {
@@ -289,7 +291,9 @@ a.active {
 .progress2-delay,
 .progress3-delay,
 .progress4-delay,
-.progress5-delay {
+.progress5-delay,
+.progress6-delay,
+.progress7-delay {
     visibility: visible;
 }
 
@@ -473,6 +477,13 @@ a.active {
     font-size: 16px;
 }
 
+.navbar-brand.page-scroll1 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: rgba(21, 103, 180, 0.76)
+}
+
+
 .navbar-shadow {
     -webkit-box-shadow: 0px 1px 1px #444;
     -moz-box-shadow: 0px 1px 1px #444;
@@ -494,7 +505,7 @@ a.active {
 /* ======= INTRODUCTION ======= */
 
 #intro {
-    background: url(../img/desert.png);
+    background: url(../img/dear-2309801_1920.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -780,8 +791,7 @@ a.fa.fa-angle-down:focus {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    display;
-    block;
+
     color: #FFF;
     font-size: 55px;
     text-align: center;
@@ -831,7 +841,6 @@ a.fa.fa-angle-down:focus {
 .skills {
     margin-top: 50px;
 }
-
 
 /* New skills bars */
 
@@ -929,8 +938,8 @@ a.fa.fa-angle-down:focus {
 .progress3-delay {
     -webkit-animation-name: progress-3;
     animation-name: progress-3;
-    -webkit-animation-delay: 1.7s;
-    animation-delay: 1.7s;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
 }
 
 
@@ -942,10 +951,10 @@ a.fa.fa-angle-down:focus {
 }*/
 
 .progress4-delay {
-    -webkit-animation-name: progress-5;
+    -webkit-animation-name: progress-4;
     animation-name: progress-4;
-    -webkit-animation-delay: 2.2s;
-    animation-delay: 2.2s;
+    -webkit-animation-delay: 1.9s;
+    animation-delay: 1.9s;
 }
 
 
@@ -957,14 +966,42 @@ a.fa.fa-angle-down:focus {
 }*/
 
 .progress5-delay {
+    -webkit-animation-name: progress-5;
+    animation-name: progress-5;
+    -webkit-animation-delay: 2.3s;
+    animation-delay: 2.3s;
+}
+
+/*#progress-6 {
     -webkit-animation-name: progress-4;
     animation-name: progress-5;
     -webkit-animation-delay: 2.7s;
     animation-delay: 2.7s;
+}*/
+
+.progress6-delay {
+    -webkit-animation-name: progress-6;
+    animation-name: progress-6;
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+
+/*#progress-7 {
+    -webkit-animation-name: progress-4;
+    animation-name: progress-5;
+    -webkit-animation-delay: 2.7s;
+    animation-delay: 2.7s;
+}*/
+
+.progress7-delay {
+    -webkit-animation-name: progress-7;
+    animation-name: progress-7;
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
 }
 
 
-/*.progressred {
+.progressred {
     background-color: #c0392b;
 }
 .progressblue {
@@ -978,7 +1015,14 @@ a.fa.fa-angle-down:focus {
 }
 .progressgreen {
     background-color: #27ae60;
-}*/
+}
+
+.progressyellow {
+    background-color: #d4e025;
+}
+.progresssky {
+    background-color: #14c0cc;
+}
 
 @-webkit-keyframes progress-1 {
     0% {
@@ -994,7 +1038,7 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 90%;
+        width: 93%;
     }
 }
 
@@ -1003,7 +1047,7 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 80%;
+        width: 75%;
     }
 }
 
@@ -1012,7 +1056,7 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 70%;
+        width: 50%;
     }
 }
 
@@ -1021,7 +1065,24 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 55%;
+        width: 30%;
+    }
+}
+
+@-webkit-keyframes progress-6 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+@-webkit-keyframes progress-7 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
     }
 }
 
@@ -1039,7 +1100,7 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 90%;
+        width: 93%;
     }
 }
 
@@ -1048,7 +1109,7 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 80%;
+        width: 75%;
     }
 }
 
@@ -1057,7 +1118,7 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 70%;
+        width: 50%;
     }
 }
 
@@ -1066,7 +1127,25 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 55%;
+        width: 30%;
+    }
+}
+
+@-moz-keyframes progress-6 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+@-moz-keyframes progress-7 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
     }
 }
 
@@ -1084,7 +1163,7 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 90%;
+        width: 93%;
     }
 }
 
@@ -1093,7 +1172,7 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 80%;
+        width: 75%;
     }
 }
 
@@ -1102,7 +1181,7 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 70%;
+        width: 50%;
     }
 }
 
@@ -1111,9 +1190,30 @@ a.fa.fa-angle-down:focus {
         width: 0%;
     }
     100% {
-        width: 55%;
+        width: 30%;
     }
 }
+
+@keyframes progress-6 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes progress-7 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+
+
 
 .skills-section {
     /*background: mistyrose;*/
@@ -1148,7 +1248,7 @@ a.fa.fa-angle-down:focus {
 
 .skills-section .skill-icon img {
     margin: 0 auto;
-    width: 75px;
+    width: 300px;
     height: auto;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -1166,7 +1266,7 @@ a.fa.fa-angle-down:focus {
     .skills-section .skill-icon img#html {
         width: 55px;
     }
-    .skills-section .skill-icon img#css {
+    .skills-section .skill-icon img#python {
         width: 55px;
     }
     .skills-section .skill-icon img#sass {
@@ -1200,7 +1300,7 @@ a.fa.fa-angle-down:focus {
 .employment h3 {
     font-weight: 400;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     line-height: 1.5;
 }
 img#cj-logo,
@@ -1214,7 +1314,7 @@ img#usc-logo {
 
 img#cj-logo {
     width: 140px;
-    margin: 0 auto 30px;
+    margin: 0 auto 40px;
 }
 
 img#usc-logo {
@@ -1324,7 +1424,7 @@ a.resume-btn:active {
 #portfolio {
     padding-top: 90px;
     padding-bottom: 100px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.623);
 }
 
 #portfolio * {

@@ -21,7 +21,10 @@ $(function() {
         $('.wp3-2').addClass('progress2-delay');
         $('.wp3-3').addClass('progress3-delay');
         $('.wp3-4').addClass('progress4-delay');
-        $('.wp3-5').addClass('progress5-delay');
+		$('.wp3-5').addClass('progress5-delay');
+		$('.wp3-5').addClass('progress6-delay');
+        $('.wp3-5').addClass('progress7-delay');
+
 	}, {
 		offset: '50%'
 	});
