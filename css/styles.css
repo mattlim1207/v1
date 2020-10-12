@@ -529,7 +529,7 @@ a.active {
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
     /* IE6-9 */
-    height: 750px;
+    height: 850px;
     background-attachment: fixed;
 }
 
@@ -580,7 +580,7 @@ a.fa.fa-angle-down {
     padding: 10px 14px;
     color: #aaa;
     font-size: 50px;
-    margin-top: 175px;
+    margin-top: 300px;
     transition: all 0.5s;
 }
 
