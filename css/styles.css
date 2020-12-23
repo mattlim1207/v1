@@ -512,6 +512,8 @@ a.active {
     background-repeat: no-repeat;
     background-color: #000;
     color: #000;
+    bottom: 10px;
+    top: 10px;
 }
 
 #intro .overlay {
@@ -529,7 +531,7 @@ a.active {
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
     /* IE6-9 */
-    height: 850px;
+    height: 1000px;
     background-attachment: fixed;
 }
 
@@ -580,7 +582,7 @@ a.fa.fa-angle-down {
     padding: 10px 14px;
     color: #aaa;
     font-size: 50px;
-    margin-top: 300px;
+    margin-top: 350px;
     transition: all 0.5s;
 }
 
